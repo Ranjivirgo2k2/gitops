@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git 'YOUR_GITHUB_REPO'
+                git 'git@github.com:Ranjivirgo2k2/gitops.git'
             }
         }
 
